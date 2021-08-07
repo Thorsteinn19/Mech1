@@ -1,1 +1,2 @@
-A=1
+import tkinter as tk
+window =tk.Tk()
