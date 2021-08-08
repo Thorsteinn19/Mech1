@@ -1,9 +1,10 @@
 import tkinter as tk
+import hello
 from tkinter.constants import END
 
 def handle_click(event):
     name=entry.get()
-    print(entry.get())
+    hello.printname(name)
     entry.delete(0,END)
 
 window =tk.Tk()
