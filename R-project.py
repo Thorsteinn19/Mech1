@@ -14,17 +14,16 @@ def reset_entry(event):
     entry2.delete(0,END)
 
 window =tk.Tk()
-window.geometry("400x300")
+window.geometry("400x200")
 
 frame_a= tk.Frame()
 frame_b=tk.Frame()
 
 greeting = tk.Label(master=frame_a,
-    text="Sláðu inn nafn",
+    text="Velcomin/n\nSláðu inn nafn",
     fg="black",
-    bg="white",
     width=43,
-    height=5
+    height=2
 )
 
 entry = tk.Entry(master=frame_a,
@@ -34,8 +33,7 @@ entry = tk.Entry(master=frame_a,
 )
 label2 = tk.Label(master=frame_b,
     width=43,
-    height=5,
-    bg="white",
+    height=1,
     text="Sláðu inn aldur"
 )
 entry2 = tk.Entry(master=frame_b,
