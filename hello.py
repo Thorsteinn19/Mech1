@@ -1,2 +1,2 @@
-def printname(nameentry):
-    print(nameentry)
+def printname(nameentry,age):
+    print(nameentry," ",age)
