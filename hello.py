@@ -1,2 +1,2 @@
 def printname(nameentry,age):
-    print(nameentry," ",age)
+    print("Hi "nameentry,"you are ",age)
